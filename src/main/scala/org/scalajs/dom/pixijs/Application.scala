@@ -11,4 +11,5 @@ import scala.scalajs.js.annotation.JSGlobal
 class Application(options: js.Object = js.native) extends js.Object {
    var view: html.Canvas = js.native
    var stage: Container = js.native
+   var ticker: Ticker = js.native
 }
